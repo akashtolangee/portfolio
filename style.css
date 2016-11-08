@@ -1,0 +1,577 @@
+
+/*  
+Theme Name: Portfolio 2016
+Description: Portfolio's theme. 
+Author: Akash Tolangee
+Version:1.0
+*/
+
+
+
+/*  Portfolio- GLOBAL STYLES  */
+
+html {
+	background-color: #fff;		
+}
+
+body, body * {
+   margin: 0;
+   padding: 0;
+}
+
+a img {
+   border: none;
+}
+span{
+    display: none;
+}
+
+body {
+   font-size: 100%; 
+   font-family: 'Open Sana', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'PT Sans', sans-serif;
+   line-height: 210%; 
+   color: #000;
+}
+
+      
+        
+h1{
+    font-family: 'Open Sana', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+    padding-top: 1.5em;
+        }
+        
+h2{
+   font-family: 'Open Sana', sans-serif;
+   font-family: 'Oswald', sans-serif;
+             font-family: 'PT Sans', sans-serif;
+            font-size: 1.5em;
+            padding-top: 15px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        
+ h3{
+     font-family: 'Open Sana', sans-serif;
+     font-family: 'Oswald', sans-serif;
+     font-family: 'PT Sans', sans-serif;
+     font-size: 1.25m;
+     padding-top: 7px;
+     margin-bottom: 7px;
+     color: #000;
+        }
+        
+p{
+    margin-bottom: 12px;
+}
+        
+ li{
+     font color: #000;
+     font-size: 1em;
+    line-height: 1.25em;
+    margin-left: 56px;
+    margin-bottom: 6px;
+    }
+
+blockquote {
+    float: left;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin: 0px 36px 12px 36px;
+    font-style: italic;
+    
+}
+
+
+#wrapper {
+   width: 940px;
+   margin: 0 auto;	
+}  
+
+
+
+#header{
+    width: 940px;
+    margin: 0 auto;
+}
+
+  #logo img  {
+    width: 150px;
+    height:auto;
+    margin: auto;
+      
+      
+     
+    
+}
+
+
+nav{
+    width: 940px;
+    height:60px;
+    margin: 5px auto;
+    overflow: hidden;
+    
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+}
+
+ nav li {
+    float: left;
+    }
+
+ nav li a {
+    display: block;
+    color: #fff;
+    padding: 24px 7px; 
+    font-size: 100% ;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav li a:hover {
+    background-color: #111;
+      }
+nav li.icon {display: none;}    
+   
+#middle {
+    width: 940px;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+#main {
+    width: 510px;
+    float: right;
+    margin: 20px 5px 5px 5px;
+}
+
+#content {
+    width: 500px;
+   height: auto;
+    float: left;
+    margin : 5px;
+}
+
+
+
+
+footer{
+ clear:both;     
+ background-color: #000;
+ max-width: 940px;
+ height:30px;    
+ color:#fff;
+ text-align: center; 
+ margin: 0 auto;
+ padding: 15px 0px;    
+ position:relative;    
+  }
+
+a:link, a:visited {
+    
+    text-decoration: none;
+}
+
+a:hover,
+a:focus, a hover#menu-icon { 
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+
+
+
+/*------- MEDIA--------*/
+
+
+
+@media screen and (max-width: 800px) {
+  
+    
+    
+    #header{
+    width: 100%;
+    height: auto;    
+    margin: 0 auto;
+}
+    
+    
+    #wrapper {
+    width: auto;
+    height: auto;
+  }
+   
+    
+ nav{
+    width: auto;
+    height:auto;
+    margin: 5px auto;
+    background-color: #333;
+   
+}    
+    
+  nav li a {
+    display: block;
+    color: white;
+    font-size: 100% ;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    }    
+  nav li:not(:first-child) {display: none;}
+  nav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+    
+ nav.responsive {position: relative;}
+nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+        
+    #main {
+    width: auto;    
+    float: left;
+    padding: 0 1em;
+      
+      
+  }
+   
+  #content{
+        height: auto;
+        width: auto;
+    }    
+    
+  #aside {
+    height: auto;  
+    width: auto;
+    background-color : darkgrey;
+    color : #fff;      
+    text-align: center;
+    float: left;  
+  }
+    
+    
+    footer{
+       
+    clear: both;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+       
+    }
+}
+    
+    /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
+		
+div.hentry {
+	margin-bottom: 1.25em;
+}
+
+.wp-caption-text  {
+	font-size: .75em;
+}
+	
+.alignnone {
+	margin-bottom: 0.625em; 
+}
+	
+.alignleft {	/* applies to floated images */
+	float: left;
+	margin: 0 0.625em 0.625em 0; 
+}
+	
+.alignright { 	/* applies to floated images */
+	float: right;
+	margin: 0 0 0.625em 0.625em; 
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#previous_image a, 
+#next_image a {
+	border-bottom: none; 
+}
+	
+.attachment-thumbnail, 
+.size-thumbnail {
+	padding: 0.3125em;
+	border: 1px solid #ddd;
+}
+	
+#gallery-box {
+	margin-bottom: 1.5625em;
+}
+	
+	
+/* COMMENTS */
+
+.comment {
+	padding-bottom: 1em;
+}
+
+#comments,
+#comments-box,
+#respond {
+	clear: both; 	/* clears floated prev/next nav on comments.php template */	
+}
+
+#comments-head {
+	border-bottom: 1px solid #ddd;
+}
+	
+#comments-box ol,
+#comments-box ul {
+	list-style-type:none;
+	padding-left: 0;
+	margin-left: 0;	
+}
+	
+#comments-box ol li {
+	margin: 1.25em 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+		
+#comments-box cite {
+	font-weight:bold;
+	font-size: 0.8125em;
+}
+	
+.comment-author {
+	margin-bottom: 2px;
+}
+	
+.comment p,
+.nocomments {
+	clear: both;
+}
+
+.comment-metadata {
+	font-size: 0.6875em;	
+}
+
+.reply {
+	font-size: 0.6875em;
+}
+	
+footer.comment-meta {
+	padding: 0;
+}
+	
+#commentform p {
+	font-size: 0.75em;
+}
+	
+.avatar {
+	float: left;
+	margin: 0 0.625em 0.625em 0;
+}
+	
+#content img.print {
+	float: right;
+	border: none;
+	clear:both;
+	margin-bottom: 1.25em;
+}
+		
+#content object { 
+	margin: 0 0 0.625em 0px ; 
+}
+	
+#content pre {
+	max-height: 300px;
+	font-size: .75em;
+	padding: 0.625em;
+	margin: 0.625em 0;
+	overflow: auto;
+}
+	
+
+	
+.clear {
+	clear:both;
+}
+
+
+					
+/* POST ITEMS */
+.post {
+	border-bottom:1px solid #DDDDDD;
+	margin-bottom: 1.8750em;
+	padding-bottom: 0.625em;
+}
+
+.meta {
+	font-size: .75em;
+	font-style:italic;
+}
+
+.sticky {
+	
+}
+
+.bypostauthor {
+	
+}
+
+.read-more {
+	font-style: italic;	
+}
+
+.post-nav {
+	padding-top: 1.25em;	
+}
+
+.post-nav .alignleft {	
+	float: left;
+	margin: 0; 
+	width: 48%;
+}
+	
+
+
+/* GALLERY ITEMS */
+.gallery {
+	margin: auto;
+}
+	
+.gallery-item {
+	float: left;
+	margin: 5px 3px 5px 0;
+	text-align: center;
+}
+	
+#content p.smallattachment a, 
+#content dl.gallery-item a {
+	border-bottom: none;
+}
+	
+.gallery img {
+}
+	
+.gallery-caption {
+	margin-left: 0;
+}
+	
+#content p.wp-caption-text {
+	margin-top: 0.625em;
+	font-size: .75em;
+}
+		
+/*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */	
+
+
+
+@media screen and (max-width:600px)  {
+    
+    nav{
+    width: auto;
+    height: auto;
+    margin: 5px auto;
+    background-color: #333;
+   
+}    
+  nav li:not(:first-child) {display: none;}
+  nav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+    
+ nav.responsive {position: relative;}
+  nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+    
+
+     #middle{
+        height: auto;
+        width: auto;
+    }  
+     
+    #main {
+       height: auto;
+       width: auto;
+  }
+    
+  #subnav {
+    height: auto; 
+    width: 51%;
+    text-align: center;  
+    
+  }
+    
+ #content{
+        height: auto;
+        width: auto;
+    }    
+        
+  #aside {
+    height: auto;  
+    width: auto;
+    background-color : darkgrey;
+    color : #fff;      
+    text-align: center;
+    float: right;  
+  }
+    
+    
+    footer{
+       
+    clear: both;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+       
+    }
+    
+}
+
+	
+		
+	
