@@ -4,11 +4,7 @@
   <?php dynamic_sidebar( 'secondary' ); ?>
 
     <?php else : ?>
-<h3>Latest</h3>
-<p><a href="">News>>></a></p> 
-<p><a href="">Posts>>></a></p>
-<p><a href="">Jobs>>></a></p> 
-<p><a href="">Events>>></a></p> 
+ 
     
     <div class="widget">
         <h3>Categories</h3>
