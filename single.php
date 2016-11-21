@@ -13,7 +13,5 @@
     <?php endwhile; endif; ?>
    
 </div>
-	
-<?php get_sidebar('secondary'); ?> 
 
 <?php get_footer(); ?>
