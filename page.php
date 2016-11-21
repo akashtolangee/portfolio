@@ -17,7 +17,6 @@
         </div>
 </div>
  <?php endwhile; endif; ?>
-	
-<?php get_sidebar('secondary'); ?> 
+	 
 
 <?php get_footer(); ?>
