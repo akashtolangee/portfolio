@@ -6,7 +6,7 @@
 <div id= "main">		
 <div id="content">
 
-        <h2 class="page-title"><?php _e( 'Not Found', ' NAHH 2016' ); ?></h2>
+        <h2 class="page-title"><?php _e( 'Not Found', 'Akash  2016' ); ?></h2>
 			
 
 <p><?php _e( 'It looks the page you have been looking for could not be found. Maybe the page has been moved. Please us the search.', 'NAHH' ); ?></p>
@@ -17,6 +17,6 @@
 
 		</div>
 	
-<?php get_sidebar('secondary'); ?> 
+
 
 <?php get_footer(); ?>
