@@ -172,7 +172,14 @@ nav li.icon {display: none;}
 }
 
 
-
+#primary {
+    width: 195px;
+    height: auto;
+    float: right;
+    padding : 10px;
+    background-color : lightsteelblue;
+    color : #fff;
+}
 
 footer{
  clear:both;     
